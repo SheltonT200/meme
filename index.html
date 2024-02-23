@@ -1,0 +1,7 @@
+<script>
+var y = (function(){alert('open debug console and type "yay" with as many "()" you want it wont ever work')})
+var yayay = Function(`return Function('return (function (){return yay})()')`)
+var yaya = Function("return Function('return yayay')")
+var yay = Function("return Function('return yaya')")
+y()
+</script>
